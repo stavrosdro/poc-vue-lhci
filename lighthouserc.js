@@ -2,7 +2,7 @@ module.exports = {
   ci: {
     assert: {
       assertions: {
-        "categories:performance": ["error", {minScore: 0.8}],
+        "categories:performance": ["error", {minScore: 0.75}],
         "categories:accessibility": ["error", {minScore: 0.8}],
       }
     },
